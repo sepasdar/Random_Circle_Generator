@@ -1,4 +1,5 @@
-# Random_Circle_Generator
+# Random_Circle_Generator [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sepasdar/Random_Circle_Generator/blob/main/Random_Circle_Generator.ipynb)
+
 This algorithm generates randomly distributed circles within a specified domain based on a target distribution for the circles' nearest neighbor distances (NND). The target distribution is chosen to be Weibull although it can be replaced by any distribution.  The similarity between the generated and target distributions is measured using KL-Divergence.
 The circles can have different diameters. A minimum clear distance between the circles can be specified so that the circles do not touch or get too close to one another. 
 
@@ -8,4 +9,3 @@ If you are interested in this work and use the materials, please cite the follow
 
 **Sepasdar, R., Karpatne, A., & Shakiba, M. (2021). A Data-Driven Approach to Full-Field Damage and Failure Pattern Prediction in Microstructure-Dependent Composites using Deep Learning. arXiv preprint arXiv:2104.04485.**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sepasdar/Random_Circle_Generator/blob/main/Random_Circle_Generator.ipynb)
