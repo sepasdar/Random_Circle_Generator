@@ -1,7 +1,8 @@
 # Random_Circle_Generator [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sepasdar/Random_Circle_Generator/blob/main/Random_Circle_Generator.ipynb)
 
 This algorithm generates randomly distributed circles within a specified domain based on a target distribution for the circles' nearest neighbor distances (NND). The target distribution is chosen to be Weibull although it can be replaced by any distribution.  The similarity between the generated and target distributions is measured using KL-Divergence.
-The circles can have different diameters. A minimum clear distance between the circles can be specified so that the circles do not touch or get too close to one another. 
+The circles can have different diameters. A minimum clear distance between the circles can be specified so that the circles do not touch or get too close to one another. The algorithm is schematically illustrated in the Figure below.
+<img src="Algorithm.jpg" width="900px"/>
 
 You can find detailed information regarding the algorithm and its implimentaiton in Section 4 of this [paper](https://arxiv.org/abs/2104.04485).
 
